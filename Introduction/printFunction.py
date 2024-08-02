@@ -30,12 +30,7 @@ Sample Output 0
 123"""
 
 #Solution:
-
 if __name__ == '__main__':
     n = int(input())
-    li=[]
     for i in range(1,n+1):
-        li.append(str(i))
-    a="".join(li)
-    print(a)
-        
+        print(i,end="")
